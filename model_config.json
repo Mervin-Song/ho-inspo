@@ -1,0 +1,22 @@
+{
+  "text_embedding_dim": 384,
+  "item_hidden_dim": 256,
+  "user_hidden_dim": 256,
+  "query_hidden_dim": 256,
+  "image_encoder_type": "resnet18",
+  "freeze_image_layers": 20,
+  "image_projection_dim": 512,
+  "text_projection_dim": 512,
+  "attention_heads": 4,
+  "image_dropout": 0.3,
+  "text_dropout": 0.3,
+  "user_dropout": 0.3,
+  "query_dropout": 0.3,
+  "item_similarity_weight": 0.8,
+  "user_preference_weight": 0.2,
+  "semantic_weight": 0.7,
+  "learning_rate": 0.0001,
+  "batch_size": 256,
+  "negative_samples": 3,
+  "margin": 0.2
+}
